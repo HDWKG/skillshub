@@ -242,7 +242,7 @@ class _PendaftaranEditScreenState extends State<PendaftaranEditScreen> {
                       const SizedBox(height: 8),
 
                       DropdownButtonFormField<int>(
-                        value: selectedKelas,
+                        initialValue: selectedKelas,
                         items: kelasList.map((k) {
                           return DropdownMenuItem<int>(
                             value: k['id'] as int,

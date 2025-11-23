@@ -141,7 +141,7 @@ class _PendaftaranAddScreenState extends State<PendaftaranAddScreen> {
                     children: [
                       // Pilih Peserta
                       DropdownButtonFormField<int>(
-                        value: selectedPeserta,
+                        initialValue: selectedPeserta,
                         decoration: InputDecoration(
                           labelText: "Pilih Peserta",
                           hintText: "Pilih peserta yang akan didaftarkan",
@@ -213,7 +213,7 @@ class _PendaftaranAddScreenState extends State<PendaftaranAddScreen> {
 
                       // Pilih Kelas
                       DropdownButtonFormField<int>(
-                        value: selectedKelas,
+                        initialValue: selectedKelas,
                         decoration: InputDecoration(
                           labelText: "Pilih Kelas",
                           hintText: "Pilih kelas yang akan diikuti",
